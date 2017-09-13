@@ -486,7 +486,7 @@ class mCC1101
          *    True if the transmission succeeds
          *    False otherwise
          */
-        //boolean sendData(const CCPACKET & packet);
+        // boolean sendData(const CCPACKET & packet);
 
         /**
          * receiveData
@@ -506,7 +506,7 @@ class mCC1101
         byte lqi;
         bool crc_ok;
         volatile bool interrupt; // We use an internal "there is interrupt" flag
-        // to manipulate from sendPacket/getPacket
+        // to be able to manipulate from sendPacket/getPacket
 
         bool print(const __FlashStringHelper* fmt, ...); // The analogous to Serial.print
         // but more powerful as it uses printf
