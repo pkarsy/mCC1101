@@ -16,8 +16,7 @@ This method can have some advantages (in some scenarios) over transmitting an un
 - New function print. For example<br/>
 rf.print(F("Elevation=%d Size=%d"),30,5);<br/>
 will send a RF packet containing "Elevation=30 Size=5".<br/>
-This function is useful when the PC has a bridge (***usb2rf module***) receiving RF packets and feeding the data to a serial port.<br/>
-See https://github.com/pkarsy/rfboot for details.
+This function is useful when the PC has a bridge (***usb2rf module***) receiving RF packets and feeding the data to a serial port. See https://github.com/pkarsy/rfboot for details.
 
 ***Installation***
 
