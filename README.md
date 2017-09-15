@@ -1,7 +1,7 @@
 # mCC1101
 An Arduino library for TI CC1101, a very capable and flexible sub GHz transceiver.
 
-It is based on panstamp library and has the same license of course : LGPLv3 or later.
+It is based on Panstamp library and has the same license : LGPLv3 or later.
 
 It has many simplifications and some additions, compared to the original panStamp library.
 However an Arduino board using mCC1101 can communicate without problems with a module using
