@@ -1,4 +1,9 @@
 # mCC1101
+
+# NOTE
+I no longer maintain this library, the basic limitation is that is working and tested only on atmega328. My efforts are now on
+https://github.com/pkarsy/CC1101_RF which is portable to other architectures and has more options.
+
 An Arduino library for TI CC1101, a very capable and flexible sub GHz transceiver.
 
 It is based on Panstamp library and has the same license : LGPLv3 or later.
